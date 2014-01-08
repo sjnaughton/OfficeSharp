@@ -8,7 +8,7 @@
     <RootNamespace>OfficeSharp</RootNamespace>
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{5D239018-5547-433D-B38B-A6DADFE8EC12};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{625366aa-0011-4529-9aea-a1f25dbc5538}</ProjectGuid>
+    <ProjectGuid>{0be7ad4e-6529-4f67-a02a-b700be41fb69}</ProjectGuid>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
     <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>

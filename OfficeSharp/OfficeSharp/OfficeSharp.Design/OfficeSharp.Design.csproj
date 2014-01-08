@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F22E345F-6079-4E0A-92F2-61174215BB2A}</ProjectGuid>
+    <ProjectGuid>{DBBD9698-EB48-4F85-B8E1-E609C0FAE890}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OfficeSharp</RootNamespace>
@@ -61,6 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ExcelImportImageProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ControlImages\ExcelImport.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

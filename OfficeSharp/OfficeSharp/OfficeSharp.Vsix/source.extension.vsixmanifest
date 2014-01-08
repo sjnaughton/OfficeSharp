@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="OfficeSharp" Version="1.0" Language="en-US" Publisher="My Company" />
-    <DisplayName>OfficeSharp</DisplayName>
-    <Description>OfficeSharp description</Description>
+    <Identity Id="OfficeSharp" Version="1.0" Language="en-US" Publisher="NotAClue Studios" />
+    <DisplayName>Office Sharp</DisplayName>
+    <Description xml:space="preserve">OfficeSharp is a A LightSwitch Extension conversion to C# of Office Integration Pack Visual Basic by Grid Logic, that provides integration capabilities with Microsoft Office 2010.</Description>
+    <License>License.txt</License>
+    <Icon>OfficeSharp.ico</Icon>
+    <PreviewImage>OfficeSharp.png</PreviewImage>
     <Tags>Visual Studio LightSwitch</Tags>
   </Metadata>
   <Installation>
