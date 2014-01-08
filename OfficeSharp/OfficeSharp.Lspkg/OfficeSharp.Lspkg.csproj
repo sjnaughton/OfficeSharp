@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>OfficeSharp</AssemblyName>
+    <RootNamespace>OfficeSharp</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{5D239018-5547-433D-B38B-A6DADFE8EC12};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{54F44264-8662-46F4-8482-29EE4498C29C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
+    <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
+    <LightSwitchVersion>v1.0</LightSwitchVersion>
+    <CreateLspkg>true</CreateLspkg>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OfficeSharp.Client\OfficeSharp.Client.csproj">
+      <Name>OfficeSharp.Client</Name>
+      <LspkgClientContent>true</LspkgClientContent>
+    </ProjectReference>
+    <ProjectReference Include="..\OfficeSharp.Client.Design\OfficeSharp.Client.Design.csproj">
+      <Name>OfficeSharp.Client.Design</Name>
+      <LspkgClientDebugOnlyContent>true</LspkgClientDebugOnlyContent>
+    </ProjectReference>
+    <ProjectReference Include="..\OfficeSharp.Common\OfficeSharp.Common.csproj">
+      <Name>OfficeSharp.Common</Name>
+      <LspkgClientContent>true</LspkgClientContent>
+      <LspkgIDEContent>true</LspkgIDEContent>
+      <LspkgServerContent>true</LspkgServerContent>
+    </ProjectReference>
+    <ProjectReference Include="..\OfficeSharp.Design\OfficeSharp.Design.csproj">
+      <Name>OfficeSharp.Design</Name>
+      <LspkgIDEContent>true</LspkgIDEContent>
+    </ProjectReference>
+    <ProjectReference Include="..\OfficeSharp.Server\OfficeSharp.Server.csproj">
+      <Name>OfficeSharp.Server</Name>
+      <LspkgServerContent>true</LspkgServerContent>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\LightSwitch\$(LightSwitchVersion)\Microsoft.LightSwitch.Toolkit.targets" />
+</Project>

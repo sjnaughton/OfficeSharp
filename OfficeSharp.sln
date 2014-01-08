@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21126.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSharp.Vsix", "OfficeSharp\OfficeSharp.Vsix\OfficeSharp.Vsix.csproj", "{82176717-550F-4054-A1D5-ABB9DA33FC01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSharp.Client", "OfficeSharp\OfficeSharp.Client\OfficeSharp.Client.csproj", "{9C07DEC3-F45F-45DD-AD64-2956DE269254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSharp.Client.Design", "OfficeSharp\OfficeSharp.Client.Design\OfficeSharp.Client.Design.csproj", "{D8958F59-EE74-40CB-A50E-DE5C520326AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSharp.Common", "OfficeSharp\OfficeSharp.Common\OfficeSharp.Common.csproj", "{8A956E47-547F-424B-B655-B03ECD3F2F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSharp.Design", "OfficeSharp\OfficeSharp.Design\OfficeSharp.Design.csproj", "{56197EBE-0B1B-448B-92A6-E40F62DE0CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSharp.Lspkg", "OfficeSharp\OfficeSharp.Lspkg\OfficeSharp.Lspkg.csproj", "{54F44264-8662-46F4-8482-29EE4498C29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeSharp.Server", "OfficeSharp\OfficeSharp.Server\OfficeSharp.Server.csproj", "{60093139-61C4-42DC-9DA6-51C1F36F473E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{0D93575B-361C-4C41-9E20-B5A907D545F0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82176717-550F-4054-A1D5-ABB9DA33FC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82176717-550F-4054-A1D5-ABB9DA33FC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82176717-550F-4054-A1D5-ABB9DA33FC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82176717-550F-4054-A1D5-ABB9DA33FC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C07DEC3-F45F-45DD-AD64-2956DE269254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C07DEC3-F45F-45DD-AD64-2956DE269254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C07DEC3-F45F-45DD-AD64-2956DE269254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C07DEC3-F45F-45DD-AD64-2956DE269254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8958F59-EE74-40CB-A50E-DE5C520326AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8958F59-EE74-40CB-A50E-DE5C520326AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8958F59-EE74-40CB-A50E-DE5C520326AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8958F59-EE74-40CB-A50E-DE5C520326AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A956E47-547F-424B-B655-B03ECD3F2F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A956E47-547F-424B-B655-B03ECD3F2F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A956E47-547F-424B-B655-B03ECD3F2F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A956E47-547F-424B-B655-B03ECD3F2F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56197EBE-0B1B-448B-92A6-E40F62DE0CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56197EBE-0B1B-448B-92A6-E40F62DE0CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56197EBE-0B1B-448B-92A6-E40F62DE0CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56197EBE-0B1B-448B-92A6-E40F62DE0CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F44264-8662-46F4-8482-29EE4498C29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F44264-8662-46F4-8482-29EE4498C29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F44264-8662-46F4-8482-29EE4498C29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F44264-8662-46F4-8482-29EE4498C29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60093139-61C4-42DC-9DA6-51C1F36F473E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60093139-61C4-42DC-9DA6-51C1F36F473E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60093139-61C4-42DC-9DA6-51C1F36F473E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60093139-61C4-42DC-9DA6-51C1F36F473E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
